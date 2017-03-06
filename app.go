@@ -46,6 +46,7 @@ func (a *App) SetRoutes() {
 		AddMatcher(itimethod.New("DELETE"))
 }
 
+// AddURL puts a new URL in the List
 func (a *App) AddURL(url string) {
 	a.URLList = append(a.URLList, url)
 }
